@@ -1,0 +1,28 @@
+body{
+
+
+    background-image: url("./background.jpg");
+    /* background-color: #cccccc; */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.flex-container{
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: end;
+    flex-direction: row;
+    background-color: rgb(158, 149, 16);
+
+}
+
+.flex-item{
+    flex: auto;
+    border: 1.3px solid black;
+
+
+}
