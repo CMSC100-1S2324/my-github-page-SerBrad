@@ -14,12 +14,12 @@ body {
 
 .Logoprofile{
 
-  border-radius: 100px;
-  width: 250px;
+  border-radius: 50px;
+  width: 100px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 1px;
+  padding-bottom: 5px;
 
 }
 
@@ -52,12 +52,8 @@ body {
   flex-wrap: wrap;
   flex-direction: column; /* Arrange items vertically */
 
-  align-items: center; /* Center items horizontally */
-  position: absolute; /* Position the container absolutely */
-  /* Position at the top */
-  left: 50%; /* Center horizontally */
-  transform: translateX(-50%);
-  margin-left: auto;
+  align-items: center; 
+
   margin-right: auto;
 }
 .flex-item1{
@@ -73,11 +69,12 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: #331f1f;
-  border-width: 1rem;
+ 
+  border-width: 5px;
+
   border-style: dotted;
-  border-color: rgb(16, 11, 11);
-  padding: 100px;
+  border-color: black;
+  padding: 80px;
 
 
 }
@@ -104,8 +101,8 @@ h6{
 h2{
 
 font-family: "Courier New", monospace;
-font-size: 70px;
-font-weight: 40;
+font-size: 50px;
+font-weight: 80;
 color: black;
 }
 
@@ -115,7 +112,7 @@ color: black;
 
 ul {
   list-style-type: none;
-  margin: 700;
+  
   overflow: hidden;
   background-color: #000000;
 }
@@ -127,10 +124,7 @@ li {
 li a {
   display:list-item;
   color: goldenrod; font-family: 'Helvetica Neue', sans-serif; font-size: 35px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center;
-
-  text-align: center;
-  padding: 10px 10px;
-  font-family: 'Courier New', monospace;
+  padding: 10px 55px;
 
   text-decoration: none;
 }
@@ -142,14 +136,10 @@ li a:hover {
 }
 
 
-.container {
-display: flex;
-padding: 16px;
-}
 
 
 .Logoprofile1 {
-border-radius: 15px;
+  size: 100%;
 width: max-content; /* Ensure the image doesn't exceed the container width */
 height: max-content; /* Ensure the image doesn't exceed the container height */
 /* Remove any potential whitespace below the image */
@@ -160,15 +150,12 @@ height: max-content; /* Ensure the image doesn't exceed the container height */
 
 display: flexbox;
 flex-wrap: wrap;
+
 }
 
 
 
   
-
-  
-  
-
 
 
 
@@ -191,18 +178,13 @@ flex-wrap: wrap;
   display: flex;
   flex-direction: row; /* Arrange items vertically */
 
+  position: relative;
 
-  position: absolute; /* Position the container absolutely */
-  /* Position at the top */
-  left: 50%; /* Center horizontally */
-  transform: translateX(-50%);
-
-margin-top: 65%;
-align-content: space-around;
-padding: 10px;
+padding: 5px;
 box-shadow: 5px 4px 8px 10px black;
 
-
+margin-left: 100px;
+margin-right: 100px;
 
 }
 
@@ -215,8 +197,20 @@ box-shadow: 5px 4px 8px 10px black;
   flex-wrap: wrap;
   border-radius: 40px;
   margin: 20px;
-  }
+  padding-left: 20px;
+  padding-right: 20px;
   
+
+  }
+
+
+
+  .flex-item h3:hover{
+    background-color: yellowgreen;
+    border-radius: 80%;
+    padding: 20px;
+    }
+    
 
 
   .Title{
@@ -253,6 +247,7 @@ box-shadow: 5px 4px 8px 10px black;
     
 /* feature picture container  */
 .flex-container2{
+ 
   border-radius: 100px;
   background-color: rgb(60, 56, 56);
   display: flex;
@@ -261,12 +256,13 @@ box-shadow: 5px 4px 8px 10px black;
 
   position: absolute; /* Position the container absolutely */
   /* Position at the top */
-  left: 20%; /* Center horizontally */
+  left: 30%; /* Center horizontally */
   transform: translateX(-50%);
 
-  padding-top: auto;
+  padding-top: 40px;
+  padding-bottom : 40px;
 padding-left: 20px;
-margin-top: 86%;
+margin-top: 100%;
 align-content: space-around;
 box-shadow: 5px 4px 8px 10px black;
 
@@ -310,6 +306,50 @@ padding-top: 30px;
   bottom: 30px;
 
 }
+
+
+
+
+
+.flex-container3{
+  padding-left: 50px;
+  
+  border-radius: 100px;
+  background-color: rgb(60, 56, 56);
+  display: flex;
+  flex-direction: row; /* Arrange items vertically */
+
+
+  position: absolute; /* Position the container absolutely */
+  /* Position at the top */
+  right: 25%; /* Center horizontally */
+  transform: translateX(-50%);
+
+  padding-top: 40px;
+  padding-bottom : 40px;
+padding-left: 20px;
+margin-top: 100%;
+align-content: space-around;
+box-shadow: 5px 4px 8px 10px black;
+
+
+
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
