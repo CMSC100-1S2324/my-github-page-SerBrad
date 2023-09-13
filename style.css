@@ -1,11 +1,8 @@
 body {
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
+  margin: auto; /* Remove default margin */
   background-color: goldenrod;
- 
   background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh; /* Ensure the body covers the entire viewport height */
+  background-size: cover; /* Ensure the body covers the entire viewport height */
 }
 
 
@@ -88,7 +85,7 @@ h3{
 
 
 h6{
-  color: white; font-family: 'Helvetica Neue', sans-serif; font-size: 25px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center;
+  color: white; font-family: 'Helvetica Neue', sans-serif; font-size: 15px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center;
 
   text-shadow: 4px 2px 5px rgb(111, 108, 99);
 }
@@ -112,19 +109,20 @@ color: black;
 
 ul {
   list-style-type: none;
-  
+  align-self: center;
   overflow: hidden;
   background-color: #000000;
 }
 
 li {
-  float: left;
+  float:left;
+ 
 }
 
 li a {
   display:list-item;
-  color: goldenrod; font-family: 'Helvetica Neue', sans-serif; font-size: 35px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center;
-  padding: 10px 55px;
+  color: goldenrod; font-family: 'Helvetica Neue', sans-serif; font-size: 25px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center;
+  padding: 10px 15px;
 
   text-decoration: none;
 }
@@ -163,10 +161,9 @@ flex-wrap: wrap;
 
   margin-top: 15px;
   margin-bottom: 20px;
-  }
+    
   
-  
-  
+}
 
 
 
@@ -177,7 +174,7 @@ flex-wrap: wrap;
   background-color: rgb(60, 56, 56);
   display: flex;
   /* Arrange items vertically */
-
+  bottom: 20px;
   position: relative;
 
 
@@ -249,15 +246,12 @@ box-shadow: 5px 4px 8px 10px black;
   background-color: rgb(60, 56, 56);
   display: flex;
   flex-direction: row; /* Arrange items vertically */
-
-
-
- margin-top: 10%;
   padding-top: 40px;
   padding-bottom : 40px;
-padding-left: 1px;
-left: -10%;
 
+
+  position: relative;
+ 
 box-shadow: 5px 4px 8px 10px black;
 
 
@@ -277,21 +271,34 @@ box-shadow: 5px 4px 8px 10px black;
   
   
   .flex-item2{
-    font-size: large;
-    background-color: #331f1f;
-    padding: 10px;
-    flex-wrap: wrap;
-    border-radius: 40px;
-    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+   
+  background-color: #331f1f;
+
+    
+    border-radius: 90px;
+    margin: 10px;
     }
     
+
+    .flex-item-s{
+      padding:20%;
+     
+      padding: 2px;
+      
+      border-radius: 100px;
+      margin: 32px;
+      
+      }
+      
 
 
 
 .skills{
 padding-top: 30px;
   border-radius: 20px;
-  width: 150px;
+  width: 100px;
   height: auto;
   display: block;
   margin-left: auto;
@@ -302,65 +309,57 @@ padding-top: 30px;
 }
 
 
+.skills1{
+  padding: 30px;
+    border-radius: 20px;
+    width: 120px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px;
+    bottom: 30px;
+  
+  }
+
 
 
 
 .flex-container3{
-  padding-left: 50px;
   
-  border-radius: 100px;
-  background-color: rgb(60, 56, 56);
+  
+
+ 
   display: flex;
-  flex-direction: row; /* Arrange items vertically */
+  flex-direction: column; /* Arrange items vertically */
 
 
  /* Position the container absolutely */
-  /* Position at the top */
-  right: 25%; /* Center horizontally */
-  transform: translateX(-50%);
+  /* Position at the top */ /* Center horizontally */
+
 
   padding-top: 40px;
   padding-bottom : 40px;
-padding-left: 20px;
-margin-top: 100%;
-align-content: space-around;
-box-shadow: 5px 4px 8px 10px black;
-
-
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-top: 100%;
 
 }
   
 
 
 
+.flex-container3 > p{
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  color: #ffffff; font-family: 'Lato', sans-serif; font-size: 24px; font-weight: 300; line-height: 41px; margin: 0 0 58px; 
+}
 
     .footer {
-      position: fixed;
+      
       left: 0;
       bottom: 0;
       width: 100%;
-      background-color: red;
+      background-color: rgb(82, 73, 73);
       color: white;
       text-align: center;
    }
