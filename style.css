@@ -176,15 +176,12 @@ flex-wrap: wrap;
   border-radius: 100px;
   background-color: rgb(60, 56, 56);
   display: flex;
-  flex-direction: row; /* Arrange items vertically */
+  /* Arrange items vertically */
 
   position: relative;
 
-padding: 5px;
-box-shadow: 5px 4px 8px 10px black;
 
-margin-left: 100px;
-margin-right: 100px;
+box-shadow: 5px 4px 8px 10px black;
 
 }
 
@@ -254,16 +251,13 @@ margin-right: 100px;
   flex-direction: row; /* Arrange items vertically */
 
 
-  position: absolute; /* Position the container absolutely */
-  /* Position at the top */
-  left: 30%; /* Center horizontally */
-  transform: translateX(-50%);
 
+ margin-top: 10%;
   padding-top: 40px;
   padding-bottom : 40px;
-padding-left: 20px;
-margin-top: 100%;
-align-content: space-around;
+padding-left: 1px;
+left: -10%;
+
 box-shadow: 5px 4px 8px 10px black;
 
 
@@ -320,7 +314,7 @@ padding-top: 30px;
   flex-direction: row; /* Arrange items vertically */
 
 
-  position: absolute; /* Position the container absolutely */
+ /* Position the container absolutely */
   /* Position at the top */
   right: 25%; /* Center horizontally */
   transform: translateX(-50%);
